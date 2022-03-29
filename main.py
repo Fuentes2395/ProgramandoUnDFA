@@ -1,50 +1,57 @@
+from enum import Flag
 import string
+from this import d
 
 file = open("texto.txt", "r")
 
-variables = list(string.ascii_letters)
+# variables = list(string.ascii_letters)
+variables = ["a", "b", "c"]
 operadores = ["+", "-", "/", "*", "=", "^"]
+numeros = ["1","2","3","4","5","6","7","8","9","0"]
 tempText = ""
 flag = False
-diccionarioImpreso = {}
-
-
-# for line in file:
-#     text = line
-#     for i in range(len(text)):
-#         for j in range(len(variables)):
-#             if text[i] == variables[j]:
-#                 print(text[i])
-#                 flag = True
-#                 break
-#             else:
-#                 continue
-#         for k in range(len(operadores)):
-#             if text[i] == operadores[j]:
-#                 print(text[i])
-#             else:
-#                 continue
+check = False
+diccionario = {}
+listaKeys = []
+cont = 0
 
 for line in file:
     for character in line:
-        for i in range(len(variables)):
-            if character == variables[i]:
-                tempText += character
+        if check == False:
+            for i in range(len(variables)):
+                if character == variables[i]:
+                    tempText += character
+                    flag = True
+                    check = True
+                    break
+                elif character != variables[i] and len(variables)-1 == i and flag == True:
+                    print(tempText, ": Variable")
+                    tempText = ""
+                    flag = False
+                    break
                 
-                
-
-                flag = True
-                break
-
-        if flag == False:
+        if check == False:
             for i in range(len(operadores)):
                 if character == operadores[i]:
                     tempText += character
+                    print(tempText, ": Operador")
+                    tempText = ""
+                    check = True
                     break
-        flag = False
-        print(tempText)
 
+        if check == False:
+            for i in range(len(numeros)):
+                if character == numeros[i]:
+                    tempText += character
+                    print(tempText, ": Entero")
+                    i = 0
+                    flag = True
+                    check = True
+                    break
+                elif character != numeros[i] and len(numeros)-1 == i and flag == True:
+                    print(tempText, ": Entero")
+                    tempText = ""
+                    flag = False
+                    break
 
-
-
-# print(text)
+        check = False
