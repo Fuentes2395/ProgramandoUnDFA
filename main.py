@@ -5,8 +5,8 @@ from tabnanny import check
 file = open("texto.txt", "r")
 
 #Declaración de variables
-# variables = list(string.ascii_letters)
-variables = ["a", "b", "c"]
+variables = list(string.ascii_letters)
+# variables = ["a", "b", "c"]
 operadores = ["+", "-", "*", "=", "^", "(", ")"]
 numeros = ["1","2","3","4","5","6","7","8","9","0"]
 tempText = ""
