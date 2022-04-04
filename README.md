@@ -17,32 +17,31 @@ A continuación se mostrarán los pasos para la instalación del ejercicio
 3. No separar por más de un enter la ecuación. 
 
 ## Casos de prueba.
-b = 7
-a = 32.4 * ( - 8.6 - b ) / 6.1E-8
-d = a ^ b // Esto es un comentario
-Respuesta:
-Problema 1
-b : Variable
-= : Asignación
-7 : Entero
-Problema 2
-a : Variable
-= : Asignación
-32.4 : Real
-* : Multiplicación
-( : Paréntesis que abre
-- : Resta
-8.6 : Entero
-- : Resta
-b : Variable
-) : Paréntesis que cierra
-/ : División
-6.1E-8 : Entero
-Problema 3
-d : Variable
-= : Asignación
-a : Variable
-^ : Potencia
-b : Variable
+b = 7 <br />
+a = 32.4 * ( - 8.6 - b ) / 6.1E-8 <br />
+d = a ^ b // Esto es un comentario <br />
+Respuesta: <br />
+Problema 1 <br />
+b : Variable <br />
+= : Asignación <br />
+7 : Entero <br />
+Problema 2 <br />
+a : Variable <br />
+= : Asignación <br />
+32.4 : Real <br />
+* : Multiplicación <br />
+( : Paréntesis que abre <br />
+- : Resta <br />
+8.6 : Entero <br />
+- : Resta <br />
+b : Variable <br />
+) : Paréntesis que cierra <br />
+/ : División <br />
+6.1E-8 : Entero <br />
+Problema 3 <br />
+d : Variable <br />
+= : Asignación <br />
+a : Variable <br />
+^ : Potencia <br />
+b : Variable <br />
 // Esto es un comentario : Comentario
-
