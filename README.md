@@ -31,9 +31,9 @@ a : Variable <br />
 32.4 : Real <br />
 \* : Multiplicación <br />
 ( : Paréntesis que abre <br />
-- : Resta <br />
+\- : Resta <br />
 8.6 : Entero <br />
-- : Resta <br />
+\- : Resta <br />
 b : Variable <br />
 ) : Paréntesis que cierra <br />
 / : División <br />
