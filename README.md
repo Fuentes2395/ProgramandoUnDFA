@@ -1,7 +1,7 @@
 # ProgramandoUnDFA
 Andrés Fuentes Alanís A01177466
-Diego Burgarin
-Eduardo Pons A0
+Diego Burgarin A01620485
+Eduardo Pons A01721025
 
 ## Instalación
 A continuación se mostrarán los pasos para la instalación del ejercicio
