@@ -1,2 +1,7 @@
 # ProgramandoUnDFA
-Implementación de métodos computacionales Tarea 3.2 Marzo 2022
+Andrés Fuentes Alanís A01177466
+Diego Burgarin
+Eduardo Pons A0
+
+## Instalación
+1. Primer
