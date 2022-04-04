@@ -29,7 +29,7 @@ Problema 2 <br />
 a : Variable <br />
 = : Asignación <br />
 32.4 : Real <br />
-* : Multiplicación <br />
+\* : Multiplicación <br />
 ( : Paréntesis que abre <br />
 - : Resta <br />
 8.6 : Entero <br />
